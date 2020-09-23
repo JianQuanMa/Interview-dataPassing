@@ -25,6 +25,7 @@ class ViewController: UIViewController {
     
 
     @IBAction func submitButtonTapped(_ sender: UIButton) {
+        performSegue(withIdentifier: "segue", sender: self)
     }
     
 

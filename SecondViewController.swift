@@ -14,7 +14,7 @@ class SecondViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        configure()
         
         // Do any additional setup after loading the view.
     }
